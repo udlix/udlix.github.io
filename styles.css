@@ -8,12 +8,12 @@
 /* Colores de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #e8b44c;
     color: #e0e0e0;
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: #e8b44c;
     padding: 1em 0;
     text-align: center;
     border-bottom: 1px solid #333;
@@ -21,7 +21,7 @@ header {
 
 header h1 {
     margin-bottom: 0.5em;
-    color: #e8b44c; /* Color actualizado */
+    color: #111; /* Color actualizado */
 }
 
 nav ul {
@@ -64,7 +64,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
 
 button {
     background-color: #e8b44c; /* Color actualizado */
-    color: #1f1f1f;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -75,8 +75,8 @@ button:hover {
 }
 
 footer {
-    background-color: #1f1f1f;
-    color: #e0e0e0;
+    background-color: #d9a83e;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #333;
