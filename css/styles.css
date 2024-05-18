@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e8b44c;
-    color: #e0e0e0;
+    color: #000000;
 }
 
 header {
@@ -47,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #d0d0d0;
     color: #ffffff; /* Cambié a un color de texto más visible */
 }
 
@@ -137,7 +137,7 @@ footer .logo-footer {
 
 .close:hover,
 .close:focus {
-    color: #e8b44c;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
