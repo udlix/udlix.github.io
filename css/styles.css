@@ -28,17 +28,45 @@ header .logo {
     margin-left: 20px;
 }
 
-header h1 {
-    margin-bottom: 0.5em;
-    color: #111;
-    flex-grow: 1;
-    text-align: center;
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+header button {
+    background-color: #ffffff;
+    color: #000000;
+    border: #aaa;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+header button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header select {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
 }
 
 nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
+    margin-top: 1em;
 }
 
 nav ul li {
@@ -47,7 +75,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
 }
@@ -62,28 +90,6 @@ main {
 
 section {
     margin-bottom: 40px;
-}
-
-input[type="text"], input[type="email"], input[type="password"], textarea, select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    color: #000000;
-}
-
-button {
-    background-color: #ffffff;
-    color: #000000;
-    border: #aaa;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #d0d0d0;
-    color: #ffffff; /* Cambié a un color de texto más visible */
 }
 
 footer {
@@ -137,7 +143,7 @@ footer .logo-footer {
 
 .close:hover,
 .close:focus {
-    color: #000000;
+    color: #bd9340;
     text-decoration: none;
     cursor: pointer;
 }
