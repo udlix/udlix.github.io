@@ -57,15 +57,15 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #1f1f1f;
-    border: 1px solid #333;
-    color: #e0e0e0;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
 }
 
 button {
-    background-color: #e8b44c; /* Color actualizado */
-    color: #ffffff;
-    border: none;
+    background-color: #ffffff; /* Color actualizado */
+    color: #000000;
+    border: #aaa;
     padding: 10px 20px;
     cursor: pointer;
 }
