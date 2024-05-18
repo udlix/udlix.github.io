@@ -1,31 +1,48 @@
-body {
-    font-family: Arial, sans-serif;
+/* Resetear margenes y paddings */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+/* Colores de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #1f1f1f;
     padding: 1em 0;
     text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    color: #e8b44c;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     text-align: center;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e8b44c;
 }
 
 main {
@@ -33,30 +50,73 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    color: #e0e0e0;
+}
+
+button {
+    background-color: #e8b44c;
+    color: #1f1f1f;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9a83e;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
     text-align: center;
     padding: 10px 0;
+    border-top: 1px solid #333;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-input[type="text"], input[type="email"], input[type="password"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    box-sizing: border-box;
+/* Estilos para los modales */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.7); 
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
+.modal-content {
+    background-color: #1f1f1f;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #333;
+    width: 80%; 
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #e8b44c;
+    text-decoration: none;
     cursor: pointer;
 }
