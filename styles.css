@@ -9,14 +9,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e8b44c;
-    color: #e0e0e0;
+    color: #e8b44c;
 }
 
 header {
     background-color: #e8b44c;
     padding: 1em 0;
     text-align: center;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #e8b44c;
 }
 
 header h1 {
@@ -57,14 +57,14 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #1f1f1f;
-    border: 1px solid #333;
+    background-color: #e8b44c;
+    border: 1px solid #e8b44c;
     color: #e0e0e0;
 }
 
 button {
     background-color: #e8b44c;
-    color: #1f1f1f;
+    color: #e8b44c;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -79,7 +79,7 @@ footer {
     color: #e8b44c;
     text-align: center;
     padding: 10px 0;
-    border-top: 1px solid #333;
+    border-top: 1px solid #e8b44c;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -99,16 +99,16 @@ footer {
 }
 
 .modal-content {
-    background-color: #1f1f1f;
+    background-color: #e8b44c;
     margin: 15% auto; 
     padding: 20px;
-    border: 1px solid #333;
+    border: 1px solid #e8b44c;
     width: 80%; 
     max-width: 500px;
 }
 
 .close {
-    color: #aaa;
+    color: #e8b44c;
     float: right;
     font-size: 28px;
     font-weight: bold;
