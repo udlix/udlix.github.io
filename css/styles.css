@@ -17,11 +17,22 @@ header {
     padding: 1em 0;
     text-align: center;
     border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
 }
 
 header h1 {
     margin-bottom: 0.5em;
-    color: #111; /* Color actualizado */
+    color: #111;
+    flex-grow: 1;
+    text-align: center;
 }
 
 nav ul {
@@ -42,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e8b44c; /* Color actualizado */
+    color: #111; /* Cambié a un color más visible */
 }
 
 main {
@@ -63,7 +74,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
 }
 
 button {
-    background-color: #ffffff; /* Color actualizado */
+    background-color: #ffffff;
     color: #000000;
     border: #aaa;
     padding: 10px 20px;
@@ -71,11 +82,12 @@ button {
 }
 
 button:hover {
-    background-color: #000000; /* Color ligeramente más oscuro para hover */
+    background-color: #000000;
+    color: #ffffff; /* Cambié a un color de texto más visible */
 }
 
 footer {
-    background-color: #d9a83e;
+    background-color: #e8b44c;
     color: #000000;
     text-align: center;
     padding: 10px 0;
@@ -83,6 +95,15 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo-footer {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
 }
 
 /* Estilos para los modales */
@@ -116,7 +137,7 @@ footer {
 
 .close:hover,
 .close:focus {
-    color: #e8b44c; /* Color actualizado */
+    color: #e8b44c;
     text-decoration: none;
     cursor: pointer;
 }
