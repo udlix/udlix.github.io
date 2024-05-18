@@ -8,20 +8,20 @@
 /* Colores de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e8b44c;
-    color: #e8b44c;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #e8b44c;
+    background-color: #1f1f1f;
     padding: 1em 0;
     text-align: center;
-    border-bottom: 1px solid #e8b44c;
+    border-bottom: 1px solid #333;
 }
 
 header h1 {
     margin-bottom: 0.5em;
-    color: #e8b44c;
+    color: #e8b44c; /* Color actualizado */
 }
 
 nav ul {
@@ -36,13 +36,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e8b44c;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #e8b44c;
+    color: #e8b44c; /* Color actualizado */
 }
 
 main {
@@ -50,36 +50,36 @@ main {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 input[type="text"], input[type="email"], input[type="password"], textarea, select {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #e8b44c;
-    border: 1px solid #e8b44c;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
     color: #e0e0e0;
 }
 
 button {
-    background-color: #e8b44c;
-    color: #e8b44c;
+    background-color: #e8b44c; /* Color actualizado */
+    color: #1f1f1f;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #d9a83e;
+    background-color: #d9a83e; /* Color ligeramente más oscuro para hover */
 }
 
 footer {
-    background-color: #e8b44c;
-    color: #e8b44c;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
     text-align: center;
     padding: 10px 0;
-    border-top: 1px solid #e8b44c;
+    border-top: 1px solid #333;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -99,16 +99,16 @@ footer {
 }
 
 .modal-content {
-    background-color: #e8b44c;
+    background-color: #1f1f1f;
     margin: 15% auto; 
     padding: 20px;
-    border: 1px solid #e8b44c;
+    border: 1px solid #333;
     width: 80%; 
     max-width: 500px;
 }
 
 .close {
-    color: #e8b44c;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -116,7 +116,7 @@ footer {
 
 .close:hover,
 .close:focus {
-    color: #e8b44c;
+    color: #e8b44c; /* Color actualizado */
     text-decoration: none;
     cursor: pointer;
 }
