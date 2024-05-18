@@ -22,20 +22,33 @@ header {
     align-items: center;
 }
 
-header .logo {
-    width: 100px;
-    height: auto;
+.header-left {
+    display: flex;
+    align-items: center;
     margin-left: 20px;
 }
 
 .header-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
     display: flex;
     align-items: center;
+    margin-right: 20px;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
 }
 
 header input[type="text"] {
     padding: 10px;
-    margin-right: 10px;
     background-color: #ffffff;
     border: 1px solid #000000;
     color: #000000;
@@ -47,7 +60,7 @@ header button {
     border: #aaa;
     padding: 10px 20px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 header button:hover {
@@ -60,6 +73,7 @@ header select {
     background-color: #ffffff;
     border: 1px solid #000000;
     color: #000000;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -75,7 +89,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e0e0e0;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -126,7 +140,7 @@ footer .logo-footer {
 }
 
 .modal-content {
-    background-color: #1f1f1f;
+    background-color: #ffffff;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #333;
@@ -143,7 +157,7 @@ footer .logo-footer {
 
 .close:hover,
 .close:focus {
-    color: #bd9340;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
