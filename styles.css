@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: #d9a83e; /* Color ligeramente más oscuro para hover */
+    background-color: #000000; /* Color ligeramente más oscuro para hover */
 }
 
 footer {
