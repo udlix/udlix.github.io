@@ -48,10 +48,12 @@ header .logo {
 }
 
 header input[type="text"] {
+    flex-grow: 1;
     padding: 10px;
     background-color: #ffffff;
     border: 1px solid #000000;
     color: #000000;
+    max-width: 400px;
 }
 
 header button {
@@ -140,7 +142,7 @@ footer .logo-footer {
 }
 
 .modal-content {
-    background-color: #ffffff;
+    background-color: #e8b44c;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #333;
@@ -149,7 +151,7 @@ footer .logo-footer {
 }
 
 .close {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -160,4 +162,10 @@ footer .logo-footer {
     color: #000000;
     text-decoration: none;
     cursor: pointer;
+}
+
+#languageSelect img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
 }
