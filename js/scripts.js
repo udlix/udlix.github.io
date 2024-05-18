@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var loginButton = document.getElementById('loginButton');
     var registerButton = document.getElementById('registerButton');
+    var showRegisterButton = document.getElementById('showRegisterButton');
     var loginModal = document.getElementById('loginModal');
     var registerModal = document.getElementById('registerModal');
     var closeButtons = document.querySelectorAll('.modal .close');
@@ -10,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
         loginModal.style.display = 'block';
     });
 
-    registerButton.addEventListener('click', function() {
+    showRegisterButton.addEventListener('click', function() {
+        loginModal.style.display = 'none';
         registerModal.style.display = 'block';
     });
 

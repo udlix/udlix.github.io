@@ -142,7 +142,7 @@ footer .logo-footer {
 }
 
 .modal-content {
-    background-color: #e8b44c;
+    background-color: #ffffff;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #333;
@@ -151,7 +151,7 @@ footer .logo-footer {
 }
 
 .close {
-    color: #ffffff;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
